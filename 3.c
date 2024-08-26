@@ -21,4 +21,7 @@ int main(){
  
 }
 
+//mrunmayi@mrunmayi-HP-Laptop-14s-dr1xxx:~/SS-Lab$ gcc 3.c
+//mrunmayi@mrunmayi-HP-Laptop-14s-dr1xxx:~/SS-Lab$ ./a.out
+//file descriptor val: 3
 
