@@ -21,7 +21,7 @@ Problem Statement: 9. Write a program to print the following information about a
 
 int main(int argc, char *argv[]) {
     if (argc != 2) {
-        printf("Usage: %s input.txt\n", argv[0]);
+        printf("Incorrect arguments.\n Usage: %s <filename>\n", argv[0]);
         return 1;
     }
 
