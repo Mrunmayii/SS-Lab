@@ -16,7 +16,7 @@ int main(int argc, char *argv[]){
 		perror("Status");
 		exit(0);
 	}
-	int file2 = open(argv[2], O_WRONLY| O_CREAT, 0600);
+	int file2 = open(argv[2], O_WRONLY|O_EXCL|O_CREAT, 0600);
 	if(file2<0){
 	 perror("Status");
 	 exit(0);
