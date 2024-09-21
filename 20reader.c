@@ -26,7 +26,7 @@ int main() {
 
 
     read(fd, buffer, sizeof(buffer));
-    printf("Consumer: Received message: %s\n", buffer);
+    printf("Received message: %s\n", buffer);
 
     close(fd);
 

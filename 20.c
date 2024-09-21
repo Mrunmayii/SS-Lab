@@ -34,7 +34,7 @@ int main() {
     fgets(message, sizeof(message), stdin);
 
     write(fd, message, sizeof(message));
-    printf("Producer: Message sent to FIFO.\n");
+    printf("Message sent to FIFO.\n");
 
     close(fd);
 
@@ -45,10 +45,10 @@ int main() {
 TERMINAL 1:
 mrunmayi@mrunmayi-HP-Laptop-14s-dr1xxx:~/SS-Lab$ ./20
 Enter a message to send: hello
-Producer: Message sent to FIFO.
+Message sent to FIFO.
 
 TERMINAL 2:
 mrunmayi@mrunmayi-HP-Laptop-14s-dr1xxx:~/SS-Lab$ ./20reader
-Consumer: Received message: hello
+Received message: hello
 
 */
