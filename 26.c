@@ -23,7 +23,7 @@ int main(){
 
   struct mbuf msg;
   
-  key_t key = ftok("keyfile.txt", 'a');
+  key_t key = ftok("progfile", 'a');
     
   if(key==-1){
     perror("Status:\n");
